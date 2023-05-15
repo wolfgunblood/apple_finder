@@ -1,0 +1,21 @@
+.favourites-folder {
+    display: flex;
+    align-items: flex-end;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 5px 12px;
+  
+    // &.active {
+    //   background: #0000001f;
+    //   color: var(--color-text);
+    // }
+    .favourite-folder__icon {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+    
+    .favourite-folder__name {
+      color: whitesmoke;
+    }
+  }
+  

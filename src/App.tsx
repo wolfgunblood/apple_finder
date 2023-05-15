@@ -6,12 +6,17 @@ import Files from './components/Files/Files'
 import Statusbar from './components/Statusbar/Statusbar'
 
 const App = () => {
+
+  const favourites = ["Home", "Documents", "Downloads", "Desktop"];
+
   return (
     <div className='window-container' id='window'>
       <div className='finder-container' id='finder'>
         <MenuBar />
         <div className='main-container' id='main'>
-          <Sidebar />
+          <Sidebar 
+            favourites={favourites}
+          />
           <Files />
 
         </div>
